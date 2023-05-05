@@ -17,8 +17,8 @@ export default function Sidebar() {
                 </div>
                 <ul>
                     <li>
-                        <MdHomeFilled style={{ fontSize: "27.5px" }}/>
-                        <span>Inicio</span>
+                        <MdHomeFilled style={{ fontSize: "27.5px", color: "white" }}/>
+                        <span style={{color: "white" }}>Inicio</span>
                     </li>
                     <li>
                         <MdSearch style={{ fontSize: "27.5px" }}/>
@@ -45,7 +45,7 @@ export default function Sidebar() {
             </div>
 
             <div className="Idioma">
-                <button class="rounded-button"><AiOutlineGlobal style={{ alignContent: "left", marginRight: "5px"}}/>Español de Latinoamerica</button>
+                <button className="rounded-button"><AiOutlineGlobal style={{ alignContent: "left", marginRight: "5px"}}/>Español de Latinoamerica</button>
             </div>
 
         </div>
