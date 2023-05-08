@@ -15,7 +15,7 @@ const Card = ({ imageSrc, imageAlt, title, subtitle }) => {
           className="card-image"
         />
         <button className="card-play-button">
-          <RiPlayFill />
+          <RiPlayFill className="icon"/>
         </button>
       </div>
       <div>

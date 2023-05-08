@@ -54,11 +54,59 @@
   span {
     margin-left: -1%;
   }
+
+  .playlist {
+    display: flex;
+  }
+
+  .create{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #b3b3b3;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 3%;
+  }
+
+  .create:hover{
+    color: white;
+  }
+
+  .playlist_1 {
+    display: flex;
+    margin-top: -2.5%;
+  }
+
+  .liked{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #b3b3b3;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 3%;
+  }
+
+
+  .liked:hover{
+    color: white;
+  }
   
 .playlist__links{
     display: flex;
     margin-left: 1.8%;
-    margin-top: 81%;
+    margin-top: 59%;
     font-size: 11.5px;
 }
 
@@ -97,4 +145,10 @@ span a {
     margin-top: 10%;
     cursor: pointer;
     font-weight: bold;
+    transition: all 0.2s ease-out;
 }
+
+.rounded-button:hover {
+    transform: scale(1.05); /* aumenta el tamaño del botón al 110% */
+  }
+

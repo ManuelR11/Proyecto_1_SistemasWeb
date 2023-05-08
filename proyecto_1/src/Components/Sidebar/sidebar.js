@@ -2,6 +2,8 @@ import React from "react";
 import { MdHomeFilled, MdSearch } from "react-icons/md";
 import { IoLibrary } from "react-icons/io5";
 import {AiOutlineGlobal} from "react-icons/ai";
+import {AiFillPlusSquare} from "react-icons/ai";
+import {AiFillCheckSquare} from "react-icons/ai";
 import './sidebar.css'
 
 
@@ -29,6 +31,12 @@ export default function Sidebar() {
                         <span>Tu Biblioteca</span>
                     </li>
                 </ul>
+            </div>
+            <div className="playlist">
+                <button className="create"><AiFillPlusSquare style={{ fontSize: "27.5px" }}/>Crear playlist</button>
+            </div>
+            <div className="playlist_1">
+                <button className="liked"><AiFillCheckSquare style={{ fontSize: "27.5px", color: "a19ae0"}}/>Tus me gusta</button>
             </div>
             <div className="playlist__links">
                 <span><a href="">Legal</a></span>

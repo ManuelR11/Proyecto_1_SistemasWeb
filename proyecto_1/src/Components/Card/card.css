@@ -44,16 +44,20 @@
     bottom: 16px;
     color: #282828;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 38px;
     height: 48px;
     opacity: 0;
-    padding: 16px;
+    padding: 10px;
     position: absolute;
     right: 16px;
     transform: translateY(50%); /* Centrar el botón horizontalmente */
     transition: all 0.2s ease-out; /* Aumentado el tiempo de transición para que sea más lento */
     width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   
   .card-play-button:hover {
     transform: translateY(-2px);
@@ -69,7 +73,7 @@
     font-weight: bold;
     font-size: 14px;
     position: absolute;
-    margin-top: -5%;
+    margin-top: -3%;
     margin-left: 7%;
 
   }

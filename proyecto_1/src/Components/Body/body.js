@@ -24,7 +24,6 @@ export default function Body() {
     const containerRef = useRef(null);
 
     useEffect(() => {
-      // Scroll to the bottom of the container when new elements are added
       const container = containerRef.current;
       container.scrollTop = container.scrollHeight;
     }, [containerRef.current?.children.length]);
