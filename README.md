@@ -9,5 +9,5 @@ Este proyecto busca igualar el Frontend de la pagina web spotify
 
 Pagina de referencia: https://open.spotify.com/
 
-## LINK:
+## -LINK:
 
