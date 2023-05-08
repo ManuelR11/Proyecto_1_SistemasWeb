@@ -1,7 +1,7 @@
 import React from "react";
 import {AiOutlineLeft} from "react-icons/ai";
 import {AiOutlineRight} from "react-icons/ai";
-import './header.css'
+import './header.scss'
 
 export default function Header() {
     return (

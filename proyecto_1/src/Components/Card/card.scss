@@ -1,0 +1,95 @@
+.card-link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181818;
+    border-radius: 0.25rem;
+    padding: 14px 0;
+    transition: all 0.2s ease-in-out;
+    margin-top: 6%;
+    margin-left: 32px;
+    width: 200px;
+  }
+  .card-link:not(:first-child) {
+    margin-left: 22px; /* Nuevo margen entre cartas */
+  }
+  
+  .card-link:first-child {
+    margin-left: 32px; /* Margen izquierdo de la primera carta */
+  }
+  
+  .card-link:hover {
+    background: radial-gradient(circle at center, #212121 45%, #282828 55%);;
+  }
+  
+  .card-image-wrapper {
+    margin-bottom: 10px;
+    position: relative;
+    width: 180px;
+  }
+  
+  .card-image {
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 6.5px auto;
+  }
+  
+  .card-play-button {
+    background-color: #1db954;
+    border: none;
+    border-radius: 50%;
+    bottom: 16px;
+    color: #282828;
+    cursor: pointer;
+    font-size: 38px;
+    height: 48px;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    right: 16px;
+    transform: translateY(50%); /* Centrar el botón horizontalmente */
+    transition: all 0.2s ease-out; /* Aumentado el tiempo de transición para que sea más lento */
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .card-play-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .card-link:hover .card-play-button {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .card-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 7%;
+
+  }
+  
+  .card-subtitle {
+    color: #b3b3b3;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    white-space: normal;
+    margin-left: 8%;
+    margin-top: 10%;
+    text-align: justify;
+    overflow-wrap: break-word;
+    max-width: 80%;
+  }
+  
+  
+  

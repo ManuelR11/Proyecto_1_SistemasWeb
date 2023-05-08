@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useEffect} from 'react';
 import Card from "../Card/card";
-import './body.css';
+import './body.scss';
 import Image1 from "./../../Imagenes/primera.PNG";
 import Image2 from "./../../Imagenes/segunda.PNG";
 import Image3 from "./../../Imagenes/tercera.PNG";

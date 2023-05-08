@@ -1,7 +1,7 @@
 
 import React from "react";
 import { RiPlayFill } from "react-icons/ri";
-import "./card.css";
+import "./card.scss";
 
 const Card = ({ imageSrc, imageAlt, title, subtitle }) => {
   return (

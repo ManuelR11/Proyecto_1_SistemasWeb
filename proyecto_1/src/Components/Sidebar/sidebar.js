@@ -4,7 +4,7 @@ import { IoLibrary } from "react-icons/io5";
 import {AiOutlineGlobal} from "react-icons/ai";
 import {AiFillPlusSquare} from "react-icons/ai";
 import {AiFillCheckSquare} from "react-icons/ai";
-import './sidebar.css'
+import './sidebar.scss'
 
 
 export default function Sidebar() {
