@@ -35,18 +35,21 @@ Si necesitan inspiración para escoger un sitio, les dejo este link: EnlaceLinks
 
 Para los sitios que tengan más de una página, solo necesitan implementar una. Pueden dejar links y botones dummy a otras páginas.
 
+       
+## Clon frontend Spotify:
+Pagina Original:  https://open.spotify.com/
+
+Pagina Clon:   
+    
 ## Features
 
 This boilerplate features all the latest tools and practices in the industry.
 
 - ⚛ **React** — 16.12.0 with Hooks
-- ♻ **Redux with Redux Thunk** — State Management with middleware to handle async requests
 - 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - 🚀 **Webpack**  — Hot Reloading, Code Splitting, Optimized Build
 - 💅 **CSS** — Styled Components, CSS, Sass
-- ✅  **Tests** — Jest, React Testing Library & Cypress
-- 💖  **Lint** — ESlint
-- 🐶  **Husky** — Prevent bad commits
+
 
 ## Getting started
 
