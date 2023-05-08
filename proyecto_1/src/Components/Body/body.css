@@ -1,7 +1,7 @@
 .body{
     width: 75%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #1e1e1e, #121212);
+    background-image: linear-gradient(to bottom, #1e1e1e 5%, #121212 95%);
     position: fixed;
     right: 0;
     top: 65px;
@@ -418,10 +418,12 @@
   }
 
 
-  ::-webkit-scrollbar-track {
+  .body::-webkit-scrollbar {
     background-color: transparent;
   }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
+  
+  .body::-webkit-scrollbar-thumb {
+    background-color: #656565a4;
   }
+  
+  

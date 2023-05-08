@@ -81,6 +81,7 @@
   .card-subtitle {
     color: #b3b3b3;
     font-size: 14px;
+    text-decoration: none;
     position: relative;
     white-space: normal;
     margin-left: 8%;
@@ -88,7 +89,7 @@
     text-align: justify;
     overflow-wrap: break-word;
     max-width: 80%;
-    text-decoration: none; 
   }
+  
   
   
