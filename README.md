@@ -4,7 +4,7 @@ SISTEMAS Y TECNOLOGIAS WEB - SECCIÓN - 20 - 2023 - 1
 
 <h1 align="center">
 <br>
-  <a href=""><img src="https://www.scdn.co/i/_global/open-graph-default.png" alt="React" width=320"></a>
+  <a href=""><img src="https://jojoy-app-files.ezjojoy.com/avatar/386381954011578368" alt="React" width=200"></a>
 <br>
 <br>
 -- Clone Frontend Spotify --
