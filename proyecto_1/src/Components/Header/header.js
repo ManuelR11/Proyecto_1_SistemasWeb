@@ -10,7 +10,7 @@ export default function Header() {
                 <span><button className="back-button"><AiOutlineLeft style={{ color: "#949494" , fontSize: "22px", marginTop: "1px" }} /></button></span>
                 <span><button className="go-button"><AiOutlineRight style={{ color: "#949494" , fontSize: "22px", marginTop: "1px"  }} /></button></span>
                 <span><a className="reg" href="" >Registrate</a></span>
-                <button className="Inicio">Iniciar sesion</button>
+                <span><button className="Inicio">Iniciar sesion</button></span>
             </div>
         </div>
     );

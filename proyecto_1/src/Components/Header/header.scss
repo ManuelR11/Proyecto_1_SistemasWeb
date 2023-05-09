@@ -26,6 +26,7 @@
 }
 
 .reg{
+    position: inherit;
     text-decoration: none;
     color: rgb(154, 154, 154);
     margin-left: 67%;
@@ -34,6 +35,7 @@
 }
 
 .Inicio {
+    position: relative;
     border-radius: 25px;
     padding: 16px 30px;
     background-color: white;
@@ -50,5 +52,95 @@
 }
 
 .Inicio:hover {
-    transform: scale(1.05); /* aumenta el tamaño del botón al 110% */
+    transform: scale(1.05); 
   }
+  
+  @media screen and (max-width: 765px) {
+    .Header {
+      width: 100%;
+    }
+  
+    .buttons {
+      margin-top: 5%;
+      flex-direction: column;
+    }
+  
+    .back-button {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .reg {
+      margin-top: 10px;
+    }
+  
+    .Inicio {
+      margin-top: 10px;
+    }
+  }
+  
+
+
+
+
+
+
+/*
+.Header{
+    width: 75%;
+    height: 65px;
+    background-color: #101010;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.back-button, .go-button {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 3px 4px;
+    font-size: 18px;
+    margin: 0 -24px;
+    margin-left: 3%;
+    margin-top: -0.3%;
+    cursor: pointer;
+    float: left;
+}
+
+.buttons {
+    margin-top: 1.8%;
+}
+
+.reg{
+    position: inherit;
+    text-decoration: none;
+    color: rgb(154, 154, 154);
+    margin-left: 67%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Inicio {
+    position: relative;
+    border-radius: 25px;
+    padding: 16px 30px;
+    background-color: white;
+    border: 0.01px solid white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: -2%;
+    margin-left: 3%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.1s ease-in-out;
+}
+
+.Inicio:hover {
+    transform: scale(1.05); /* aumenta el tamaño del botón al 110% 
+  }
+
+  */
