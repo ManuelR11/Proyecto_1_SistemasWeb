@@ -4,10 +4,10 @@ SISTEMAS Y TECNOLOGIAS WEB - SECCIÓN - 20 - 2023 - 1
 
 <h1 align="center">
 <br>
-  <a href=""><img src="https://www.programacion.com.py/wp-content/uploads/2016/11/react-logo-1024x576.png" alt="React" width=128"></a>
+  <a href=""><img src="https://www.scdn.co/i/_global/open-graph-default.png" alt="React" width=420"></a>
 <br>
 <br>
-React
+-- Clone Frontend Spotify --
 </h1>
 
 
