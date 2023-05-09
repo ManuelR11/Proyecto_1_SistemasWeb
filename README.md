@@ -4,7 +4,7 @@ SISTEMAS Y TECNOLOGIAS WEB - SECCIÓN - 20 - 2023 - 1
 
 <h1 align="center">
 <br>
-  <a href=""><img src="https://jojoy-app-files.ezjojoy.com/avatar/386381954011578368" alt="React" width=200"></a>
+  <a href=""><img src="https://jojoy-app-files.ezjojoy.com/avatar/386381954011578368" alt="React" width="200"></a>
 <br>
 <br>
 -- Clone Frontend Spotify --
@@ -54,16 +54,17 @@ This boilerplate features all the latest tools and practices in the industry.
 
 ## Estructura de proyecto
 
-1. Public:
-  Html : created by react
-2. Src:
-  Componentes(folder que alamacena componentes)
-    Body: componente que guarda y generar el body de la app
-    Card: componente que genera una carta donde se almacenan las playlist
-    Sidebar: componente que genera un menu grafico para navegar por el app
-    Header: componente que genera un header donde almacena back y go buttons 
-    Footer: componente que genera un footer en general donde se muestra anuncio
-  App(Se mandan a llamar los componentes)
-  Index(Se manda a llamar el App)
+1.   Public:
+     - Html : created by react
+2.   src:
+     - Componentes(folder que alamacena componentes)
+        - Body: componente que guarda y generar el body de la app
+        - Card: componente que genera una carta donde se almacenan las playlist
+        - Sidebar: componente que genera un menu grafico para navegar por el app
+        - Header: componente que genera un header donde almacena back y go buttons 
+        - Footer: componente que genera un footer en general donde se muestra anuncio
+     - App(Se mandan a llamar los componentes)
+     - Index(Se manda a llamar el App)
+        
 
 # Manuel Salvador Rodas Gordillo 21509
