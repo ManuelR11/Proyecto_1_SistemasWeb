@@ -41,7 +41,7 @@ This boilerplate features all the latest tools and practices in the industry.
 
 ## Getting started
 
-1. Clone this repo using `[https://github.com/leonardomso/react-bolt.git](https:/`
+1. Clone this repo using `https://github.com/ManuelR11/Proyecto_1_SistemasWeb`
 2. Move to the appropriate directory: `cd react-bolt`.<br />
 3. Run `yarn` or `npm install` to install dependencies.<br />
 4. Run `npm start` to see the example app at `http://localhost:8080`.
@@ -49,13 +49,21 @@ This boilerplate features all the latest tools and practices in the industry.
 ## Commands
 
 - `npm start` - start the dev server
-- `npm run build` - create a production ready build in `dist` folder
-- `npm run lint` - execute an eslint check
-- `npm run lint:fix` - execute an eslint and fix the errors
+- `npm run webpack` - create a folder with name "dist_webpack_babel"
 - `npm test` - run all tests
-- `npm run test:watch` - run all tests in watch mode
-- `npm run test:cover` - coverage mode
-- `npm run cypress:open` - starts cypress
 
+## Estructura de proyecto
+
+1. Public:
+  Html : created by react
+2. Src:
+  Componentes(folder que alamacena componentes)
+    Body: componente que guarda y generar el body de la app
+    Card: componente que genera una carta donde se almacenan las playlist
+    Sidebar: componente que genera un menu grafico para navegar por el app
+    Header: componente que genera un header donde almacena back y go buttons 
+    Footer: componente que genera un footer en general donde se muestra anuncio
+  App(Se mandan a llamar los componentes)
+  Index(Se manda a llamar el App)
 
 # Manuel Salvador Rodas Gordillo 21509
