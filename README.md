@@ -27,7 +27,7 @@ Para los sitios que tengan más de una página, solo necesitan implementar una. 
 ## Clon frontend Spotify:
 Pagina Original:  https://open.spotify.com/
 
-Pagina Clon:   
+Pagina Clon:   https://proyecto-1-stw.web.app
     
 ## Features
 
